@@ -39,33 +39,6 @@ h1 {
 
 }
 
-
-
-.item {
-
-    width: 24%;
-    height: 100%;
-    background-color: white;
-    float: left;
-    margin: 0.5%;
-    border-radius: 10px;
-    background-image: url("./img /pattern.png" );
-    background-position: center center;
-    background-size: cover;
-
-    
-
-}
-
-.item img {
-
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    
-}
-
-
 .row:after {
 
     content: "";
@@ -76,48 +49,112 @@ h1 {
 
 
 
-.balloon:hover {
+.item {
 
-    background-image: url("./img /balloon.png" );
-    background-position: center;
+    width: 24%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    margin: 0.5%;
+    border-radius: 10px;
     background-size: cover;
+    position: relative;
+
+    
+
 }
 
-.bicycle:hover {
 
-    background-image: url("./img /Bicycle.png" );
-    background-position: center;
+
+.retro {
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-image: url("img /pattern.png")
+}
+
+.item:hover .fronte{
+
+    display: inline-block;
+}
+
+.fronte {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-size: cover;
+    background-position: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    display: none;
 }
 
 
 
-.submarine:hover {
+h3 {
 
-    background-image: url("./img /submarine.png" );
-    background-position: center;
-    background-size: cover;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+    font-size: 40px;
+    font-family: 'Potta One', cursive;
+
 }
 
-.tractor:hover {
+.ballon_back{
 
-    background-image: url("./img /Tractor.png" );
+    background-image: url("img /balloon.png" );
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+
 }
 
-.tram:hover {
+.bicycle_back {
 
-    background-image: url("./img /tram.png" );
+    background-image: url("img /Bicycle.png" );
     background-position: center;
     background-size: cover;
+    color: yellow;
+    
 }
 
-.Cruise:hover {
 
-    background-image: url("./img /Cruise.png" );
+
+.submarine_back {
+
+    background-image: url("img /submarine.png" );
     background-position: center;
     background-size: cover;
+    color: cadetblue
+}
+
+.tractor_back  {
+
+    background-image: url("img /Tractor.png" );
+    background-position: center;
+    background-size: cover;
+    color: green
+}
+
+.tram_back  {
+
+    background-image: url("img /tram.png" );
+    background-position: center;
+    background-size: cover;
+    color: hotpink;
+}
+
+.Cruise_back  {
+
+    background-image: url("img /Cruise.png" );
+    background-position: center;
+    background-size: cover;
+    color: lightseagreen;
 }
 
 footer {
